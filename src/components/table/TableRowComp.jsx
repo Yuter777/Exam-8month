@@ -54,7 +54,7 @@ const TableRowComp = ({ data, currency }) => {
         }}
       >
         <span className="text-[16.67px]">
-          {currency == "usd" && "$ "}
+          {currency == "usd" && "₹ "}
           {currency == "rub" && "₽ "}
           {currency == "eur" && "€ "}
         </span>
@@ -85,7 +85,7 @@ const TableRowComp = ({ data, currency }) => {
       </TableCell>
       <TableCell align="right" sx={{ color: "white", fontSize: "14px" }}>
         <span className="text-[16.67px]">
-          {currency == "usd" && "$ "}
+          {currency == "usd" && "₹ "}
           {currency == "rub" && "₽ "}
           {currency == "eur" && "€ "}
         </span>

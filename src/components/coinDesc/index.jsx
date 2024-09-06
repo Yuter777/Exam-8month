@@ -78,7 +78,7 @@ const CoinDesc = () => {
             <h3 className="font-bold text-xl">
               Current Price:{" "}
               <span className="font-normal">
-                {currency === "usd" && "$ "}
+                {currency === "usd" && "₹ "}
                 {currency === "rub" && "₽ "}
                 {currency === "eur" && "€ "}
                 {Intl.NumberFormat("en-US").format(
@@ -89,7 +89,7 @@ const CoinDesc = () => {
             <h3 className="font-bold text-xl">
               Market Cap:{" "}
               <span className="font-normal">
-                {currency === "usd" && "$ "}
+                {currency === "usd" && "₹ "}
                 {currency === "rub" && "₽ "}
                 {currency === "eur" && "€ "}
                 {Intl.NumberFormat("en-US").format(

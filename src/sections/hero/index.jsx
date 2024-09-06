@@ -67,7 +67,7 @@ const Hero = () => {
                   </h4>
                   <div className="font-medium text-[21.83px] flex items-center justify-center gap-2">
                     <span className="text-[16.67px]">
-                      {currency == "usd" && "$ "}
+                      {currency == "usd" && "₹ "}
                       {currency == "rub" && "₽ "}
                       {currency == "eur" && "€ "}
                     </span>
